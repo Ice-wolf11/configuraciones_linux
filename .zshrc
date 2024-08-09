@@ -1,4 +1,3 @@
-
 #pokemon color scripts
 pokemon-colorscripts --no-title -r 1,3,6
 
@@ -57,7 +56,7 @@ source /home/andrew/powerlevel10k/powerlevel10k.zsh-theme
 
 # Manual configuration
 
-PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin
+PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin:/opt/lampp/bin
 
 # Manual aliases
 alias wallpaper=/home/andrew/Documentos/Scripts/changeWall.sh
@@ -140,4 +139,24 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 echo 'export PATH=$PATH:~/.local/bin' >> ~/.zshrc
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.local/bin
 export PATH=$PATH:~/.local/bin
