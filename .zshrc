@@ -74,23 +74,6 @@ alias cat='bat'
 # Plugins
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-#source /usr/share/zsh-sudo/sudo.plugin.zsh
-
-# Functions
-#function mkt(){
-#	mkdir {nmap,content,exploits,scripts}
-#}
-
-# Extract nmap information
-#	ports="$(cat $1 | grep -oP '\d{1,5}/open' | awk '{print $1}' FS='/' | xargs | tr ' ' ',')"
-#	ip_address="$(cat $1 | grep -oP '\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}' | sort -u | head -n 1)"
-#	echo -e "\n[*] Extracting information...\n" > extractPorts.tmp
-#	echo -e "\t[*] IP Address: $ip_address"  >> extractPorts.tmp
-#	echo -e "\t[*] Open ports: $ports\n"  >> extractPorts.tmp
-#	echo $ports | tr -d '\n' | xclip -sel clip
-#	echo -e "[*] Ports copied to clipboard\n"  >> extractPorts.tmp
-#	cat extractPorts.tmp; rm extractPorts.tmp
-#}
 
 # Set 'man' colors
 function man() {
@@ -140,8 +123,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-#echo 'export PATH=$PATH:~/.local/bin' >> ~/.zshrc
 
 # Obtener el URI del wallpaper actual
 #WALLPAPER_URI=$(gsettings get org.gnome.desktop.background picture-uri-dark)
