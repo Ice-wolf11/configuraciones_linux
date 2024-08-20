@@ -1,5 +1,8 @@
 #pokemon color scripts
-pokemon-colorscripts --no-title -r 1,3,6
+#pokemon-colorscripts --no-title -r 1,3,6
+
+#fastfetch personalizado
+fastfetch
 
 # Fix the Java Problem
 export _JAVA_AWT_WM_NONREPARENTING=1
@@ -13,7 +16,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Set up the prompt
-
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -56,9 +58,10 @@ source /home/andrew/powerlevel10k/powerlevel10k.zsh-theme
 
 # Manual configuration
 
-PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin:/opt/lampp/bin:/home/andrew/composer.phar
+PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin:/opt/lampp/bin:/home/andrew/
 
 # Manual aliases
+alias configcode= 'sudo chown -R $(whoami) /usr/share/code'   
 alias wallpaper=/home/andrew/Documentos/Scripts/changeWall.sh
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'
@@ -139,4 +142,17 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 #echo 'export PATH=$PATH:~/.local/bin' >> ~/.zshrc
+
+# Obtener el URI del wallpaper actual
+#WALLPAPER_URI=$(gsettings get org.gnome.desktop.background picture-uri-dark)
+
+# Eliminar las comillas del resultado
+#WALLPAPER_URI=${WALLPAPER_URI#\'}
+#WALLPAPER_URI=${WALLPAPER_URI%\'}
+
+# Ejecutar `wal` con la ruta del WALLPAPER_URI
+#wal -n -i ${WALLPAPER_URI#file://} > /dev/null 2>&1
+
+
+
 
