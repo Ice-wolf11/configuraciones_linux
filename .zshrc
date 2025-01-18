@@ -58,8 +58,7 @@ source /home/andrew/powerlevel10k/powerlevel10k.zsh-theme
 
 # Manual configuration
 
-PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin:/opt/lampp/bin:/home/andrew/
-
+PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:~/.local/bin:/opt/lampp/bin:/home/andrew/:~/.config/composer/vendor/bin/
 # Manual aliases
 alias configcode= 'sudo chown -R $(whoami) /usr/share/code'   
 alias wallpaper=/home/andrew/Documentos/Scripts/changeWall.sh
@@ -74,6 +73,7 @@ alias cat='bat'
 # Plugins
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/andrew/Descargas/repos/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # Set 'man' colors
 function man() {
@@ -133,7 +133,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # Ejecutar `wal` con la ruta del WALLPAPER_URI
 #wal -n -i ${WALLPAPER_URI#file://} > /dev/null 2>&1
-
 
 
 
